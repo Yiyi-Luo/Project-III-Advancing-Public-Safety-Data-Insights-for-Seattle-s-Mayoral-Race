@@ -45,7 +45,7 @@ To fine-tune these models, we utilized **GridsearchCV** and **RandomizedSearchCV
 
 **3. Detailed Performance Metrics:** Analyzed the confusion matrix to visualize true positives, true negatives, false positives, and false negatives, providing insight into the type of errors made by the model
 
-**Our Best Model: Random Forest**
+## **Our Best Model: Random Forest**
 
 **Overall accuracy** of **77%** on the test dataset
 
