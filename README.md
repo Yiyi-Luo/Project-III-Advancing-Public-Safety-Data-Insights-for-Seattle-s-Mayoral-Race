@@ -1,5 +1,8 @@
 **Advancing Public Safety: Data Insights for Seattle's Mayoral Race**
 
+![seattle-washington-cityscape-13-aged-pixel](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/bc30d8c6-7058-4a9d-a3ae-85c05ddb9ddd)
+
+
 **Overview and Business Understanding**
 
 Welcome to Civic Insights Consulting, a pioneering firm specialized in empowering political campaigns with data-driven strategies.This year, we're thrilled to collaborate with a progressive mayoral candidate in Seattle. Leveraging our state-of-the-art data analytics platform and deep understanding of local issues, we're committed to sculpting a campaign that resonates with the heart of Seattle. Building upon our firm's commitment to enhancing political campaigns through data-driven insights, Civic Insights Consulting is proud to embark on an innovative project that aligns perfectly with the needs of our mayoral candidate in Seattle. This initiative involves developing a sophisticated classifier to predict arrest outcomes following Terry Stops, utilizing variables such as weapon presence, call times, and other critical factors.
