@@ -63,15 +63,24 @@ To fine-tune these models, we utilized **GridsearchCV** and **RandomizedSearchCV
 
 **1. Arrest Rates Over the Years:** There has been a fluctuation in arrest rates over the years, with a notable peak in 2018 and a sharp decline in recent years, particularly in 2021. This decline could be due to various external factors such as changes in policing policy, societal changes, or other external events affecting law enforcement practices.
 
+![Arrest Rates by Year](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/f08500ee-32b6-4ba9-b88f-4554fe624e0a)
+
 
 **2. Crime Trends Over the Years for Top 8 Crime Types:** The multi-year trend across various crime types suggests that certain categories of crime have seen fluctuations over the given period. The spike in "Person With Weapon" incidents, for example, might reflect an actual increase in such incidents or a heightened law enforcement focus on these types of calls. Similarly, "Drug Related Incidents" peak at certain intervals, which could correlate with enforcement campaigns or changes in societal drug use patterns.
 
+![Crime Trends Over the Years for Top 8 Crime Type](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/7478e66c-633c-469a-b9d9-de74314e7df1)
 
 **3. Subject Race:** Black: The PDP for Subject_Race_Black indicates that when the subject is black, there is a higher likelihood of an arrest being predicted by the model. White: Conversely, the PDP for Subject_Race_White shows a decrease in the likelihood of an arrest, suggesting that the model predicts a lower likelihood of arrest for white subjects.
 
+![Subject Race Black-Partial Dependence Plot](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/1b6457cd-c90f-4c52-92c7-6f533ead544b)
+
 **4. Officer Gender:** The sharp drop in partial dependence at the value "1" on the x-axis suggests that when the officer is female, the model predicts a lower likelihood of an arrest compared to when the officer is male (value "0" on the x-axis). This means that, according to the model's understanding, the gender of the officer is an influential factor, with female officers being less likely to result in an arrest through a Terry Stop, based on the model's predictions.
+![Officer Gender-Partial Dependence Plot](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/46d56ff8-c7b4-4108-b928-cfb613bdf3b0)
+
 
 **5: Officer Age:** The PDP suggests that the likelihood of arrest decreases as the officer's age increases. This might imply that younger officers are associated with a higher likelihood of making an arrest.
+![Officer Age-Partial Dependence Plot](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/fbc5f28f-52a7-4119-a14c-833dba67ba7b)
+
 
 ## **Recommendations:** 
 
