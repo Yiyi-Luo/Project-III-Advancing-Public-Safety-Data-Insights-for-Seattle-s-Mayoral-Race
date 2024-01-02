@@ -1,13 +1,13 @@
-**Advancing Public Safety: Data Insights for Seattle's Mayoral Race**
+### **Advancing Public Safety: Data Insights for Seattle's Mayoral Race**
 
 ![seattle-washington-cityscape-13-aged-pixel](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/bc30d8c6-7058-4a9d-a3ae-85c05ddb9ddd)
 
 
-**Overview and Business Understanding**
+## **Overview and Business Understanding**
 
 Welcome to Civic Insights Consulting, a pioneering firm specialized in empowering political campaigns with data-driven strategies.This year, we're thrilled to collaborate with a progressive mayoral candidate in Seattle. Leveraging our state-of-the-art data analytics platform and deep understanding of local issues, we're committed to sculpting a campaign that resonates with the heart of Seattle. Building upon our firm's commitment to enhancing political campaigns through data-driven insights, Civic Insights Consulting is proud to embark on an innovative project that aligns perfectly with the needs of our mayoral candidate in Seattle. This initiative involves developing a sophisticated classifier to predict arrest outcomes following Terry Stops, utilizing variables such as weapon presence, call times, and other critical factors.
 
-**Data Understanding and Preparation**
+## **Data Understanding and Preparation**
 
 1. **Data Selection and Cleaning**: Carefully chosen key features for analysis, including 'Year', 'Month', 'Time of Day', 'Initial and Final Call Types', 'Officer and Subject Demographics', 'Weapon Type', and 'Stop Resolution'; Executed thorough data cleaning and organization to ensure accuracy and relevance
 
@@ -17,7 +17,7 @@ Welcome to Civic Insights Consulting, a pioneering firm specialized in empowerin
 
 4. **Preparation for Predictive Modeling**: Transformed and structured data to feed into our sophisticated classifier; Ensured data preparation aligns with our objective of delivering actionable and equitable public safety solutions
 
-**Modeling**
+## **Modeling**
 
 Modeling in machine learning involves experimenting with a variety of algorithms to identify the one that performs best for a given dataset. In this project, we explored a comprehensive range of models, each with its unique strengths and applications. 
 
@@ -37,7 +37,7 @@ We progressed through **Logistic Regression**, known for its effectiveness in bi
 
 To fine-tune these models, we utilized **GridsearchCV** and **RandomizedSearchCV** for hyperparameter optimization, ensuring the best configuration for each model. Additionally, the use of **feature importances** helped in understanding which features most significantly impact model predictions. Finally, **Partial Dependence Plots** were employed as an interpretability tool, providing insights into the relationship between features and the target variable. This comprehensive approach not only enhances the predictive accuracy but also ensures a thorough understanding of the models' behavior and their decision-making process.
 
-**Evaluation**
+## **Evaluation**
 
 **1. Cross-Validation Technique:** Utilized cross-validation to assess the robustness of the predictive model, ensuring generalizability across different data samples;
 
@@ -55,11 +55,11 @@ To fine-tune these models, we utilized **GridsearchCV** and **RandomizedSearchCV
 
 **F1-scores** of **84%** and **60%**, balancing precision and recall, reflecting the model's robustness in prediction accuracy
 
-**Limitations**
+## **Limitations**
 
 **Imbalanced Data**: The class imbalance in our dataset (18701 instances of class '0' vs. 7416 of class '1') is significant and can inherently bias models towards the majority class ('0'). Such imbalances are typical in law enforcement and public safety datasets due to the nature of the events being recorded. **Complexity of Predictive Factors**: The factors that contribute to whether an arrest is made after a Terry Stop are multifaceted and may not be entirely captured by the dataset. Variables like the type of call, officer characteristics, subject demographics, and perceived threat level are complex and have nuanced interactions. **Inherent Limitations**: The ceiling for model performance might be inherently limited by the complexity and quality of the data. Real-world data, especially in sensitive areas like law enforcement, often contains noise, biases, and unobserved factors that can impact predictive accuracy. **Class "1" Challenges:** Achieving high accuracy for the minority class ('1') is often more challenging due to fewer instances from which the model can learn. The characteristics of instances leading to an arrest might be more varied or less distinctly patterned than those that do not, making it harder for models to accurately predict. **Performance vs. Cost:** Sometimes, the pursuit of higher accuracy, especially in more challenging classes, can lead to diminishing returns. Consider the cost-benefit ratio of further improvements. Early improvements to our model (like basic preprocessing, feature engineering, or trying different algorithms) might have led to significant increases in accuracy. However, after a certain point, we found that even substantial efforts in tuning, trying complex models, or advanced preprocessing techniques only lead to very marginal improvements in accuracy.
 
-**Conclusion**
+## **Conclusion**
 
 **1. Arrest Rates Over the Years:** There has been a fluctuation in arrest rates over the years, with a notable peak in 2018 and a sharp decline in recent years, particularly in 2021. This decline could be due to various external factors such as changes in policing policy, societal changes, or other external events affecting law enforcement practices.
 
@@ -73,7 +73,7 @@ To fine-tune these models, we utilized **GridsearchCV** and **RandomizedSearchCV
 
 **5: Officer Age:** The PDP suggests that the likelihood of arrest decreases as the officer's age increases. This might imply that younger officers are associated with a higher likelihood of making an arrest.
 
-**Recommendations:** 
+## **Recommendations:** 
 
 **1. Focused Training and Resources:**
 Develop targeted training programs for officers to address the trends observed in "Person With Weapon" and "Drug Related Incidents." 
