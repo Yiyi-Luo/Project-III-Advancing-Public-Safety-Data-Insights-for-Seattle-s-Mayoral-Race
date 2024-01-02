@@ -73,6 +73,8 @@ To fine-tune these models, we utilized **GridsearchCV** and **RandomizedSearchCV
 **3. Subject Race:** Black: The PDP for Subject_Race_Black indicates that when the subject is black, there is a higher likelihood of an arrest being predicted by the model. White: Conversely, the PDP for Subject_Race_White shows a decrease in the likelihood of an arrest, suggesting that the model predicts a lower likelihood of arrest for white subjects.
 
 ![Subject Race Black-Partial Dependence Plot](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/1b6457cd-c90f-4c52-92c7-6f533ead544b)
+![Subject Race White-Partial Dependence Plot](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/d75c8e4f-4b4b-4d58-a768-c667ee02c761)
+
 
 **4. Officer Gender:** The sharp drop in partial dependence at the value "1" on the x-axis suggests that when the officer is female, the model predicts a lower likelihood of an arrest compared to when the officer is male (value "0" on the x-axis). This means that, according to the model's understanding, the gender of the officer is an influential factor, with female officers being less likely to result in an arrest through a Terry Stop, based on the model's predictions.
 ![Officer Gender-Partial Dependence Plot](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/46d56ff8-c7b4-4108-b928-cfb613bdf3b0)
