@@ -60,6 +60,7 @@ To fine-tune these models, we utilized **GridsearchCV** and **RandomizedSearchCV
 
 <img width="854" alt="Screenshot 2024-01-02 at 4 07 19 PM" src="https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/dbc57dd9-8e09-471c-8bfe-613080223996">
 
+<img width="999" alt="Top 15 Important Features in Random Forest Model" src="https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/f29f705a-c8dd-4a0a-be4c-1ad26966c993">
 
 
 ## **Limitations**
