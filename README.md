@@ -82,7 +82,7 @@ To fine-tune these models, we utilized **GridsearchCV** and **RandomizedSearchCV
 ![Arrest Rates by Year](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/f08500ee-32b6-4ba9-b88f-4554fe624e0a)
 
 
-**2. Crime Trends Over the Years for Top 8 Crime Types:** The multi-year trend across various crime types suggests that certain categories of crime have seen fluctuations over the given period. The spike in "Person With Weapon" incidents, for example, might reflect an actual increase in such incidents or a heightened law enforcement focus on these types of calls. Similarly, "Drug Related Incidents" peak at certain intervals, which could correlate with enforcement campaigns or changes in societal drug use patterns.
+**2. Crime Trends Over the Years for Top 8 Crime Types:** By 2023, the most frequent incident type has shifted to "Suspicious Circum/Person/Vehicle", indicating an increase in reports of suspicious activities or individuals. It's worth noting that while "Prowler/Trespass/Burglary" incidents have decreased since their peak, they still represent a significant portion of the crime incidents.
 
 ![Crime Trends Over the Years for Top 8 Crime Type](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/7478e66c-633c-469a-b9d9-de74314e7df1)
 
@@ -103,7 +103,7 @@ To fine-tune these models, we utilized **GridsearchCV** and **RandomizedSearchCV
 ## **Recommendations:** 
 
 **1. Focused Training and Resources:**
-Develop targeted training programs for officers to address the trends observed in "Person With Weapon" and "Drug Related Incidents." 
+Enhancing community policing efforts to increase police visibility and interactions in neighborhoods. This can help deter suspicious activities and make residents feel safer; Investing in public education campaigns to inform citizens about what constitutes suspicious behavior and how to report it appropriately.
 
 **2. Bias and Fairness Audit:**
 Conduct a thorough audit of arrest practices to investigate any potential biases indicated by the higher likelihood of arrest for black subjects and the lower likelihood for white subjects. 
