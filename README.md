@@ -60,6 +60,21 @@ To fine-tune these models, we utilized **GridsearchCV** and **RandomizedSearchCV
 
 <img width="854" alt="Screenshot 2024-01-02 at 4 07 19 PM" src="https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/dbc57dd9-8e09-471c-8bfe-613080223996">
 
+The Random Forest model shows an improvement over the baseline, with an accuracy of approximately 76.7% on the test set. The precision, recall, and f1-score for class 1 (the minority class) have improved significantly compared to the dummy classifier, which is a positive sign. However, the high training accuracy (99.7%) compared to the test accuracy indicates that the model may be overfitting to the training data. This overfitting is also hinted at by the cross-validation scores, which, while good (mean score around 88.3%), are still noticeably lower than the training score.
+
+**True Positives (TP)** is critical because it represents the cases where the model correctly predicts an arrest. Given that arrests are the minority class and likely the primary focus of your analysis, maximizing TP is crucial.
+
+**False Negatives (FN)** is equally important because it represents the cases where the model failed to predict an arrest when there actually was one. A high FN means missing out on correctly identifying potential arrest situations, which is a significant error.
+
+Our primary interest is in **accurately predicting arrests (class "1")**, thus we will focus more on the metrics specific to this class, such as the **recall and precision for class "1"**. It's particularly important in imbalanced datasets to see how well the model is identifying the minority class.
+
+**Precision (Positive Predictive Value)** means the proportion of stops that were predicted as arrests and were actually arrests. High precision means that when the model predicts an arrest, it's likely to be correct.
+
+**Recall (Sensitivity)** is extremely important in imbalanced datasets. It measures the proportion of actual arrests that were correctly identified by the model. High recall means the model is good at catching most of the actual arrests.
+
+**F1-Score**: Since it's the harmonic mean of precision and recall, it's a useful single metric to look at when we need a balance between precision and recall. It's particularly useful when the dataset is imbalanced.
+
+## **Top 15 Important Features in Random Forest Model**
 <img width="999" alt="Top 15 Important Features in Random Forest Model" src="https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/f29f705a-c8dd-4a0a-be4c-1ad26966c993">
 
 
