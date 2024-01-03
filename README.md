@@ -37,6 +37,9 @@ We progressed through **Logistic Regression**, known for its effectiveness in bi
 
 To fine-tune these models, we utilized **GridsearchCV** and **RandomizedSearchCV** for hyperparameter optimization, ensuring the best configuration for each model. Additionally, the use of **feature importances** helped in understanding which features most significantly impact model predictions. Finally, **Partial Dependence Plots** were employed as an interpretability tool, providing insights into the relationship between features and the target variable. This comprehensive approach not only enhances the predictive accuracy but also ensures a thorough understanding of the models' behavior and their decision-making process.
 
+<img width="752" alt="Screenshot 2024-01-02 at 9 11 36 PM" src="https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/d0d8129d-622e-4b4c-88a3-534f9bc0086d">
+
+
 ## **Evaluation**
 
 **1. Cross-Validation Technique:** Utilized cross-validation to assess the robustness of the predictive model, ensuring generalizability across different data samples;
