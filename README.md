@@ -114,6 +114,12 @@ Pair younger officers with more experienced ones to address the higher likelihoo
 **4. Diversity and Inclusion Programs:**
 Strengthen diversity and inclusion programs within the police force. Ensure that such programs address the disparities in arrest likelihood as indicated by the model’s predictions regarding officer gender. 
 
+## **Next Steps**
+
+1. Partner with independent auditors and experts in law enforcement practices to ensure an unbiased and thorough examination;
+
+2. Conducting workshops and interactive sessions that specifically focus on reducing disparities in arrest likelihood, as well as ensuring representation and inclusivity in the force
+
 
 
 
