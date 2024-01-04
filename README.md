@@ -39,14 +39,6 @@ To fine-tune these models, we utilized **GridsearchCV** and **RandomizedSearchCV
 
 <img width="651" alt="Cross Validation Scores" src="https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/5637ce46-23c3-45dc-b41c-8e8e736e3e3a">
 
-## **Evaluation**
-
-**1. Cross-Validation Technique:** Utilized cross-validation to assess the robustness of the predictive model, ensuring generalizability across different data samples;
-
-**2. Accuracy Assessment:** Employed the score() function, also known as the accuracy score, as a primary metric to measure the overall correctness of the model's predictions;
-
-**3. Detailed Performance Metrics:** Analyzed the confusion matrix to visualize true positives, true negatives, false positives, and false negatives, providing insight into the type of errors made by the model
-
 ## **Our Best Model: Random Forest**
 
 **Overall accuracy** of **77%** on the test dataset
