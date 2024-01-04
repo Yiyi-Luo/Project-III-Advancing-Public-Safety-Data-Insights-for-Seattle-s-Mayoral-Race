@@ -1,4 +1,5 @@
 ### **Advancing Public Safety: Data Insights for Seattle's Mayoral Race**
+**Yiyi Luo**
 
 ![seattle-washington-cityscape-13-aged-pixel](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/bc30d8c6-7058-4a9d-a3ae-85c05ddb9ddd)
 
