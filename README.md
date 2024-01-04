@@ -55,7 +55,7 @@ To fine-tune these models, we utilized **GridsearchCV** and **RandomizedSearchCV
 
 <img width="854" alt="Screenshot 2024-01-02 at 4 07 19 PM" src="https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/dbc57dd9-8e09-471c-8bfe-613080223996">
 
-<img width="690" alt="Screenshot 2024-01-04 at 6 11 38 PM" src="https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/0f9ecde5-2ee7-48e0-8d79-8af9bc7b445a">
+<img width="690" alt="Screenshot 2024-01-04 at 6 11 38 PM" src="https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/4121c5b7-1b86-43f5-abe9-34e000f0c322">
 
 The Random Forest model shows an improvement over the baseline, with an accuracy of approximately 76.7% on the test set. The precision, recall, and f1-score for class 1 (the minority class) have improved significantly compared to the dummy classifier, which is a positive sign. However, the high training accuracy (99.7%) compared to the test accuracy indicates that the model may be overfitting to the training data. This overfitting is also hinted at by the cross-validation scores, which, while good (mean score around 88.3%), are still noticeably lower than the training score.
 
