@@ -20,6 +20,8 @@ Welcome to Civic Insights Consulting, a pioneering firm specialized in empowerin
 4. **Preparation for Predictive Modeling**: Transformed and structured data to feed into our sophisticated classifier; Ensured data preparation aligns with our objective of delivering actionable and equitable public safety solutions
 
 ## **Modeling**
+<img width="1436" alt="Screenshot 2024-01-04 at 5 42 07 PM" src="https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/092a63cc-8fdc-4e60-b68b-bc96d3a2b5ec">
+
 
 Modeling in machine learning involves experimenting with a variety of algorithms to identify the one that performs best for a given dataset. In this project, we explored a comprehensive range of models, each with its unique strengths and applications. 
 
