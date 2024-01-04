@@ -94,13 +94,11 @@ Our primary interest is in **accurately predicting arrests (class "1")**, thus w
 
 **3. Subject Race:** Black: The PDP for Subject_Race_Black indicates that when the subject is black, there is a higher likelihood of an arrest being predicted by the model. White: Conversely, the PDP for Subject_Race_White shows a decrease in the likelihood of an arrest, suggesting that the model predicts a lower likelihood of arrest for white subjects.
 
-![Subject Race Black-Partial Dependence Plot](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/1b6457cd-c90f-4c52-92c7-6f533ead544b)
-![Subject Race White-Partial Dependence Plot](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/d75c8e4f-4b4b-4d58-a768-c667ee02c761)
-
+<img width="1010" alt="Screenshot 2024-01-04 at 12 02 44 PM" src="https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/dc915541-261a-4f9e-aea3-2f459c0e4bf1">
 
 **4. Officer Gender:** The sharp drop in partial dependence at the value "1" on the x-axis suggests that when the officer is female, the model predicts a lower likelihood of an arrest compared to when the officer is male (value "0" on the x-axis). This means that, according to the model's understanding, the gender of the officer is an influential factor, with female officers being less likely to result in an arrest through a Terry Stop, based on the model's predictions.
-![Officer Gender-Partial Dependence Plot](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/46d56ff8-c7b4-4108-b928-cfb613bdf3b0)
 
+<img width="888" alt="Screenshot 2024-01-04 at 12 02 32 PM" src="https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/37edff08-6671-49e0-8f08-82eb03f22879">
 
 **5: Officer Age:** The PDP suggests that the likelihood of arrest decreases as the officer's age increases. This might imply that younger officers are associated with a higher likelihood of making an arrest.
 ![Officer Age-Partial Dependence Plot](https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/fbc5f28f-52a7-4119-a14c-833dba67ba7b)
