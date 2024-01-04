@@ -104,17 +104,13 @@ Our primary interest is in **accurately predicting arrests (class "1")**, thus w
 
 ## **Recommendations:** 
 
-**1. Focused Training and Resources:**
-Enhancing community policing efforts to increase police visibility and interactions in neighborhoods. This can help deter suspicious activities and make residents feel safer; Investing in public education campaigns to inform citizens about what constitutes suspicious behavior and how to report it appropriately.
+**1. Advocate for the implementation of wide-reaching public education campaigns** under the mayoral leadership. These campaigns will focus on educating Seattle's citizens about recognizing and appropriately reporting suspicious behavior. 
 
 **2. Bias and Fairness Audit:**
-Conduct a thorough audit of arrest practices to investigate any potential biases indicated by the higher likelihood of arrest for black subjects and the lower likelihood for white subjects. 
+Conduct a thorough audit of arrest practices to investigate any potential biases indicated by the higher likelihood of arrest for black subjects and the lower likelihood for white subjects. This step resonates with our candidate's dedication to ensuring fairness and transparency in policing, thereby reinforcing public trust in law enforcement agencies.
 
 **3. Mentorship and Experience Sharing:**
-Pair younger officers with more experienced ones to address the higher likelihood of arrests among younger officers.
-
-**4. Diversity and Inclusion Programs:**
-Strengthen diversity and inclusion programs within the police force. Ensure that such programs address the disparities in arrest likelihood as indicated by the model’s predictions regarding officer gender. 
+Pair younger officers with more experienced ones to address the higher likelihood of arrests among younger officers. This approach supports our candidate's vision for a more balanced and experienced police force, contributing to more measured and equitable law enforcement practices in Seattle.
 
 ## **Next Steps**
 
