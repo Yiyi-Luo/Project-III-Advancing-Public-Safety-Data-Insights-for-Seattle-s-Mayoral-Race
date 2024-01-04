@@ -79,6 +79,8 @@ Our primary interest is in **accurately predicting arrests (class "1")**, thus w
 
 **Imbalanced Data**: The class imbalance in our dataset (18701 instances of class '0' vs. 7416 of class '1') is significant and can inherently bias models towards the majority class ('0'). Such imbalances are typical in law enforcement and public safety datasets due to the nature of the events being recorded. 
 
+<img width="678" alt="Screenshot 2024-01-04 at 5 47 07 PM" src="https://github.com/Yiyi-Luo/Advancing-Public-Safety-Data-Insights-for-Seattle-s-Mayoral-Race/assets/149438809/39e7ff85-0c68-4689-a9d9-28a32389ae99">
+
 **Complexity of Predictive Factors**: The factors that contribute to whether an arrest is made after a Terry Stop are multifaceted and may not be entirely captured by the dataset. Variables like the type of call, officer characteristics, subject demographics, and perceived threat level are complex and have nuanced interactions. 
 
 **Performance vs. Cost:** Sometimes, the pursuit of higher accuracy, especially in more challenging classes, can lead to diminishing returns. Consider the cost-benefit ratio of further improvements. Early improvements to our model (like basic preprocessing, feature engineering, or trying different algorithms) might have led to significant increases in accuracy. However, after a certain point, we found that even substantial efforts in tuning, trying complex models, or advanced preprocessing techniques only lead to very marginal improvements in accuracy.
